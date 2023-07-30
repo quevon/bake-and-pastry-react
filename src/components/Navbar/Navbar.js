@@ -14,19 +14,15 @@ const Navbar = () => {
       <nav className="navbar-bg">
         <div className="navbar">
           <div className="navbar-brand">
-            <Link to="/">Your Logo</Link> {/* Use Link instead of anchor */}
+            <Link to="/">Your Logo</Link>
           </div>
           <div className={`navbar-menu ${isMenuOpen ? "active" : ""}`}>
             <NavLink to="/" exact>
               Home
             </NavLink>{" "}
-            {/* Use NavLink instead of anchor */}
             <NavLink to="/about">About</NavLink>{" "}
-            {/* Use NavLink instead of anchor */}
             <NavLink to="/services">Services</NavLink>{" "}
-            {/* Use NavLink instead of anchor */}
             <NavLink to="/contact">Contact</NavLink>{" "}
-            {/* Use NavLink instead of anchor */}
           </div>
           <button className="menu-toggle" onClick={toggleMenu}>
             ☰

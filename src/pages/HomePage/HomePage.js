@@ -1,5 +1,4 @@
 import React from "react";
-import "./Homepage.css";
 
 const HomePage = () => {
   return (
@@ -9,6 +8,7 @@ const HomePage = () => {
         This is the homepage of our website. Feel free to explore and discover
         more about our products and services.
       </p>
+      <section></section>
     </div>
   );
 };
