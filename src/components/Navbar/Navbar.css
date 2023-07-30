@@ -40,9 +40,33 @@
 
 .menu-toggle {
   display: none;
+  font-size: 1.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 /* Show the navbar when scrolled to the top */
 .show-navbar {
   top: 0;
+}
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #444;
+    position: absolute;
+    top: 52px;
+    right: 0;
+    width: 150px;
+  }
+
+  .navbar-menu.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
 }
