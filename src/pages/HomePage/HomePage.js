@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <div>
       <div className="banner-container">
-        <h1>Welcome to Our Website!</h1>
+        <h1 data-aos="zoom-in">Welcome to Our Website!</h1>
       </div>
       <section className="animation" data-aos="zoom-in">
         <h1>Welcome to Our Website!</h1>
