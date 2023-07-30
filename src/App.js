@@ -1,13 +1,14 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import HomePage from "./pages/HomePage/HomePage";
+import HomePage from "./pages/Homepage/Homepage";
 import AboutUs from "./pages/AboutUs/AboutUs";
+import "./App.css";
 
 function App() {
   return (
     <div>
-      <div>
-        <Navbar />
+      <Navbar />
+      <div className="max-width">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="about" element={<AboutUs />} />

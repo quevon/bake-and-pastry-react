@@ -1,0 +1,67 @@
+:root {
+  --main-color: #b34009;
+  --bg-color: #feeff4;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* custom scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+section {
+  padding: 100px 0;
+}
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+/* responsive media query start */
+@media (max-width: 1104px) {
+  /* .about .about-content .left img{
+          width: 400px;
+      } */
+}
+@media (min-width: 1200px) {
+  /* .about .about-content .left img{
+          width: 400px;
+      } */
+}
+@media (max-width: 1200px) and (min-width: 947px) {
+}
+@media (min-width: 947px) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 947px) {
+  .max-width {
+    padding: 0 50px;
+  }
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 690px) {
+  .max-width {
+    padding: 0 23px;
+  }
+}
+@media (max-width: 500px) {
+}
+@media (prefers-reduced-motion) {
+}
+@media (max-width: 425px) {
+}
+@media (max-width: 375px) {
+}
