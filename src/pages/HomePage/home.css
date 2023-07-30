@@ -1,0 +1,12 @@
+/* home.css */
+.banner-container {
+  display: grid;
+  place-content: center;
+  background-color: #f0f0f0;
+  height: 100vh;
+}
+section {
+  display: grid;
+  place-content: center;
+  text-align: center;
+}

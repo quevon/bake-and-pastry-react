@@ -2,6 +2,10 @@
   --main-color: #b34009;
   --bg-color: #feeff4;
 }
+* {
+  padding: 0;
+  margin: 0;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -21,7 +25,7 @@ html {
   background: #555;
 }
 section {
-  padding: 100px 0;
+  height: 100vh;
 }
 .max-width {
   max-width: 1300px;
